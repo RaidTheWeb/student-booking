@@ -116,6 +116,8 @@
             StudentDetailSummary.Items.Clear()
             Console.WriteLine("Data Invalidated!")
             Return
+        Else
+            Console.WriteLine("Data Validation Date: " + Date.Now.ToString)
         End If
 
         Console.WriteLine("+====== Student Report ======+")
